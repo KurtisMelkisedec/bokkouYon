@@ -3,8 +3,9 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class LocationRepository {
-  static String apiKey ="AIzaSyA9EaZH_WIARHdQgSWa69ud_4KFy7rV1VM";
-  static  String token="1234567890";
+  //modifier ces 2 valeurs si vous copier ce code
+  static String apiKey ="maCléApiGoogle";
+  static  String token="monToken";
 
   static String bassedUrl="https://maps.googleapis.com/maps/api/place/autocomplete/json";
 
